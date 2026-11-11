@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APK Saver</string>
+    <string name="search_hint">Search apps</string>
+    <string name="empty">No apps found</string>
+    <plurals name="app_count">
+        <item quantity="one">%d app</item>
+        <item quantity="other">%d apps</item>
+    </plurals>
+    <string name="n_selected">%d selected</string>
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+
+    <string name="action_save_downloads">Save to Downloads</string>
+    <string name="action_save_as">Save as…</string>
+    <string name="action_share">Share</string>
+    <string name="action_select">Select</string>
+    <string name="action_app_info">App info</string>
+
+    <string name="save_n_apps">Save %d apps</string>
+    <string name="dest_downloads">Downloads/%s</string>
+    <string name="dest_choose_folder">Choose folder…</string>
+
+    <string name="select_all">Select all</string>
+    <string name="show_system">Show system apps</string>
+    <string name="sort_by">Sort by</string>
+    <string name="sort_name">Name</string>
+    <string name="sort_size">Size</string>
+    <string name="sort_updated">Last updated</string>
+    <string name="refresh">Refresh</string>
+    <string name="about">About</string>
+    <string name="about_text">Saves and shares the APK files of apps installed on this phone. Works fully offline — the app has no internet permission.\n\nTap an app for options, or long-press to select several.\n\nApps installed as split APKs (App Bundles) are saved as a .apks file containing all parts. Install those with a split-APK installer such as SAI.</string>
+
+    <string name="preparing">Preparing…</string>
+    <string name="saving">Saving…</string>
+    <string name="saved">Saved</string>
+    <string name="saved_to_downloads">Saved to %s</string>
+    <string name="saved_partial">Saved %1$d of %2$d.</string>
+    <string name="some_failed">Some apps could not be saved</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="share_via">Share APK via</string>
+    <string name="split_label">split APK</string>
+    <string name="system_label">system</string>
+
+    <string name="error_generic">Error: %s</string>
+    <string name="error_create_file">Could not create the file</string>
+    <string name="error_permission">Storage permission is needed to save to Downloads</string>
+    <string name="error_no_picker">No file picker available on this device</string>
+    <string name="error_no_handler">No app can handle this</string>
+</resources>
